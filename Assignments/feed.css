@@ -1,11 +1,31 @@
+h2{
+    color: blue;
+    font-size: x-large;
+}
+label{
+    color: brown;
+}
+form{
+    width: 400px;
+    height: 730px;
+    border: 3px solid black;
+    padding: 90px;
+    margin: auto;
+    
+}
+input,textarea{
+    width: 100%;
+    margin-top: 3px;
+    box-sizing: border-box;
+}
 div {
-
-  width: 180px;
-  height: 180px;
+  width: 500px;
+  height: 500px;
   margin: auto;
 }
  button {
         background-color: blueviolet;
         width: 365px;
         text-align: center;
+        cursor: pointer;
       }
