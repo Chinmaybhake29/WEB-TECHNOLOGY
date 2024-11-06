@@ -1,0 +1,11 @@
+div {
+
+  width: 180px;
+  height: 180px;
+  margin: auto;
+}
+ button {
+        background-color: blueviolet;
+        width: 365px;
+        text-align: center;
+      }
