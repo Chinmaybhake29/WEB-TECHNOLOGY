@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  background-color: #333;
+  color: white;
+}
+
+header h1 {
+  font-size: 2em;
+  padding: 10px 0 0px 108px;
+  display: inline;
+}
+h2 {
+  background-color: black;
+  color: aliceblue;
+  margin: 0;
+  padding: 5px 300px;
+  text-align: left;
+}
+ul {
+  padding-left: 75%;
+}
+ul a {
+  color: white;
+}
+.pl {
+  display: inline-block;
+}
+.p2 {
+  background-color: tan;
+  padding-left: 8%;
+  word-spacing: 10px;
+}
+.p2 a {
+  color: black;
+}
+.child {
+  border: 10px solid rgb(222, 222, 232);
+  width: 250px;
+  height: 193px;
+  margin: auto;
+  align-items: center;
+  padding: auto;
+  background-image: url("");
+  display: -moz-inline-box;
+}
+.d1 {
+  border: 1px solid black;
+  display: inline-block;
+  margin-left: 30%;
+  margin-top: 5px;
+}
+a {
+  color: aliceblue;
+}
