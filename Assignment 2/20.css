@@ -1,0 +1,6 @@
+li:last-child{
+  background-color: gray;  
+}
+li:first-child{
+    background-color: gray;;
+}
