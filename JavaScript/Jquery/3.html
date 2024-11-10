@@ -1,0 +1,25 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<!--Evnets and effects-->
+
+<button id="x1">Hide</button>
+<button id="x2">show</button>
+
+<p>
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos est dicta quo
+  natus ipsa ipsum inventore labore veritatis voluptas velit? Earum voluptatibus
+  porro impedit libero dolorem quia velit nam quaerat?
+</p>
+
+<script>
+  $("#x1").click(function () {
+    // $("p").hide();
+    // $("p").slideUp(300);
+    $("p").fadeOut(100);
+  });
+  $("#x2").click(function () {
+    $("p").fadeIn(100);
+    // $("p").slideDown(300);
+    // $("p").show(300);
+  });
+</script>

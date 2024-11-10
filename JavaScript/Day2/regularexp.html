@@ -1,0 +1,23 @@
+<script>
+  var exp = /^[1-9][0-9][0-9][0-9][0-9][0-9]$/;
+  var pincode = 440024;
+
+  var result = exp.test(pincode);
+  console.log(result);
+
+  var exp = /^[6-9][0-9]{9}$/;
+  var mobile = 7558717996;
+
+  var result = exp.test(mobile);
+  console.log(result);
+
+  var exp = /^([a-zA-Z]{5})([0-9]{4})([a-zA-Z])$/;
+  var pan = "fghjop6786c";
+  var result = exp.test(pan);
+  console.log(result);
+
+  var exp3 = /^[a-zA-Z]([a-zA-Z]+)?[a-zA-Z]$/;
+  var name = "Chinmay Hemant Bhake";
+  var result = exp3.test(name);
+  console.log(result);
+</script>
